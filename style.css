@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+body {
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+#value {
+  color: white;
+  font-size: 70px;
+}
+
+.container {
+    display: flex;
+    gap: 15px;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.minus {
+  width: 110px;
+  height: 35px;
+  border-radius: 20px;
+  background-color: black;
+  color: red;
+  font-size: 30px;
+  font-weight: bold;
+  border: 3px solid red;
+  box-shadow: 0 4px 10px rgba(255, 0, 0, 0.4);  
+}
+
+.minus:hover {
+  box-shadow: 0 0 10px red, 0 0 20px red, 0 0 40px red, 0 0 80px red;
+}
+
+.minus:active {
+  background-color: red;
+  color: white;
+  border: 3px solid white;
+}
+
+.plus {
+  width: 110px;
+  height: 35px;
+  border-radius: 20px;
+  background-color: black;
+  color: green;
+  font-size: 30px;
+  font-weight: bold;
+  border: 3px solid green;
+  box-shadow: 0 4px 10px rgba(0, 255, 0, 0.4);
+}
+
+.plus:hover {
+  box-shadow: 0 0 10px lime, 0 0 20px lime, 0 0 40px lime, 0 0 80px lime;
+}
+
+.plus:active {
+  background-color: green;
+  color: white;
+  border: 3px solid white;
+}
+
+.reset {
+  width: 110px;
+  height: 35px;
+  border-radius: 20px;
+  background-color: black;
+  color: yellow;
+  font-size: 20px;
+  font-weight: bold;
+  border: 3px solid yellow;
+  box-shadow: 0 4px 10px rgba(255, 255, 0, 0.4);
+}
+
+.reset:hover {
+  box-shadow: 0 0 10px yellow, 0 0 20px yellow, 0 0 40px yellow, 0 0 80px yellow;
+}
+
+.reset:active {
+  background-color: yellow;
+  color: white;
+  border: 3px solid white;
+}
