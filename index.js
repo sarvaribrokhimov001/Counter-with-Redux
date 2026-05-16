@@ -19,7 +19,6 @@ function counterReducer(state = initialState, action) {
     }
 }
 
-
 function render() {
     valueEl.innerText = store.getState();
 }
